@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backup</title>
+</head>
+<body>
+    <h1>Backup Fragen und Antworten</h1>
+
+    <h2>1. Was sind Backups?</h2>
+
+    <p>Backups sind <b>Kopien von Daten</b>, die erstellt werden, um diese im Falle von Datenverlust, -beschädigung oder -diebstahl wiederherstellen zu können. 
+        Sie dienen als Sicherheitsmaßnahme, um sicherzustellen, dass wichtige Dateien nicht dauerhaft verloren gehen.</p>
+
+    <h2>2. Warum sollte man Backups machen?</h2>
+
+    <p>Durch unvorhersehbare Ereignisse wie Hardwarefehler, Softwareprobleme oder menschliche Fehler können Daten verloren gehen. 
+        Mit regelmäßigen Backups <u>kann man sicherstellen, dass diese Daten wiederhergestellt werden können</u>.</p>
+
+    <h2>3. Was macht dieser Code?</h2>
+
+    <pre>
+import shutil
+import datetime
+
+backup_source = "C:/Users/Benutzer/Dokumente"
+backup_target = "D:/Backup_" + datetime.datetime.now().strftime("%Y%m%d%H%M")
+
+shutil.copytree(backup_source, backup_target)
+print(f"Backup erfolgreich: {backup_target}")
+    </pre>
+
+    <ol>
+        <li>Der Code importiert die Module shutil und datetime.</li>
+        <li>Die Quelle für das Backup wird in der Variablen backup_source festgelegt (C:/Users/Benutzer/Dokumente).</li>
+        <li>Das Ziel des Backups wird in der Variablen backup_target gesetzt. Das Ziel ist ein Ordner auf dem Laufwerk D:, 
+            dessen Name das aktuelle Datum und die Uhrzeit enthält.</li>
+        <li>Der Befehl shutil.copytree() kopiert den gesamten Inhalt des Ordners backup_source in den Ordner backup_target.</li>
+        <li>Am Ende gibt der Code eine Bestätigung aus, dass das Backup erfolgreich war und zeigt den Zielordner an.</li>
+    </ol>
+
+    <h2>4. Gibt es einen Weg ein Script automatisch wiederholt auszuführen?</h2>
+
+    <p>ein Skript kann automatisch wiederholt ausgeführt werden, 
+        indem man die <i>Taskplanung</i> in Windows oder <i>Cron-Jobs</i> in Linux verwendet, 
+        um das Skript zu festgelegten Zeiten oder in regelmäßigen Intervallen auszuführen.</p>
+
+</body>
+</html>
