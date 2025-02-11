@@ -1,0 +1,43 @@
+body {
+    background-color:burlywood
+}
+
+h1 {
+    color: blue;
+}
+
+.intro {
+    font-size: 20pt;
+}
+
+.btn {
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: darkgreen;
+}
+
+.box {
+    background-color:aqua;
+    width: 200px;
+    height: 100px;
+    border-radius: 15px;
+}
+
+.liste li {
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+.bild {
+    width: 200px;
+    height: 200px; 
+    border-radius: 50%;
+    object-fit: cover;
+}
+.bild:hover {
+    transform: scale(1.1);
+  }
