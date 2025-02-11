@@ -4,11 +4,12 @@ body {
 }
 
 marquee {
-    border: 0px; background: transparent none; font-size: auto; font-family: auto direction="right" scrolldelay="1" scrollamount="5"
+    border: 0px; background: transparent none; font-size: auto; font-family: auto direction="right" scrolldelay="0" scrollamount="5"
 }
 
 a {
     color: darkolivegreen; 
+    font-style: italic;
     font-size: 12pt;
     margin: 20pt;
 }
@@ -34,4 +35,28 @@ p {
     color:dimgrey;
     font-size: 12pt;
     margin: 20pt;
+}
+
+.halloechen {
+    border: darkolivegreen, dashed, 2px;
+    border-radius: 20px;
+    width: 25%;
+    margin: 20px;
+}
+
+.text {
+    color:dimgrey;
+    font-size: 12pt;
+    margin: 20pt;
+}
+
+img {
+    border: crimson, dashed, 2px;
+    border-radius: 20px;
+    margin: 20pt;
+    }
+
+.liste {
+    list-style-type: none;
+    padding: 0pt;
 }
