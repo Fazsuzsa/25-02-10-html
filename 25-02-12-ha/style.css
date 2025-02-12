@@ -33,6 +33,7 @@ body {
     aspect-ratio: 1;
     border-radius: 15px;
     background-color:darkgoldenrod;
+    color: lightgrey;
     font-size: 20px;
     margin: 20px;
     justify-content: center;
