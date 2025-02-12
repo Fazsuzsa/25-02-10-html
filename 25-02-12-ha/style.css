@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+}
+
+.navbar {
+    width: 100vw;
+    height: 70px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    display: flex
+}
+
+.navArea {
+    flex: 1;
+    height: 100%;
+}
+
+.navAreaOne {
+    background-color: purple;
+}
+  
+.navAreaTwo {
+    background-color:crimson;
+}
+
+.navAreaThree {
+    background-color: darkolivegreen;
+}
+
+.logo {
+    height: 30px;
+    aspect-ratio: 1;
+    border-radius: 15px;
+    background-color:darkgoldenrod;
+    font-size: 20px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex
+}
+
+.logotitle {
+    color: lightgrey;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex
+}
+
+.mitte {
+    width: 100vw;
+    height: 280px;
+    background-color: lightgrey;
+    box-sizing: border-box;
+    padding: 70px;
+    display: flex
+}
+
+.mitteAreaOne {
+    width: 140px;
+    height: 140px;
+    margin-right: 70px;
+    background-color: crimson;
+}
+  
+.mitteAreaTwo {
+    width: 140px;
+    height: 140px;
+    margin-right: 70px;
+    background-color: crimson;
+}
+
+.mitteAreaThree {
+    width: 140px;
+    height: 140px;
+    margin-right: 70px;
+    background-color: crimson;
+}
+
+.ware {
+    color: lightgrey;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex
+}
+
+.mitteunten {
+    width: 100vw;
+    height: 70px;
+    margin-top: 0px;
+    background-color: darkgoldenrod;
+}
+
+.unten {
+    width: 100vw;
+    height: 70px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    display: flex
+}
+
+.untenArea {
+    flex: 1;
+    height: 100%;
+}
+
+.untenAreaOne {
+    background-color: purple;
+}
+  
+.untenAreaTwo {
+    background-color: darkolivegreen;
+}
