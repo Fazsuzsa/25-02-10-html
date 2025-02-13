@@ -91,41 +91,6 @@ body {
     margin-top: 70px;
     
 }
-  
-.mitteAreaOne {
-    width: 140px;
-    height: 140px;
-    margin-right: 70px;
-    margin-bottom: 70px;
-    background-color: crimson;
-    justify-content: center;
-}
-  
-.mitteAreaTwo {
-    width: 140px;
-    height: 140px;
-    margin-right: 70px;
-    margin-bottom: 70px;
-    background-color: crimson;
-    justify-content: center;
-}
-
-.mitteAreaThree {
-    width: 140px;
-    height: 140px;
-    margin-right: 70px;
-    margin-bottom: 70px;
-    background-color: crimson;
-    justify-content: center;
-}
-
-.ware {
-    color: wheat;
-    font-size: 20px;
-    justify-content: center;
-    text-align: center;
-    display: flex
-}
 
 .footerContainer {
     width: 100vw;
