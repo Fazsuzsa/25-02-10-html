@@ -2,11 +2,10 @@ body {
     margin: 0;
 }
 
-.navbar {
+.navContainer {
     width: 100vw;
     height: 70px;
     box-sizing: border-box;
-    justify-content: center;
     align-items: center;
     display: flex
 }
@@ -47,21 +46,52 @@ body {
 .logotitle {
     color:wheat;
     font-size: 30px;
-    justify-content: center;
-    align-items: center;
-    display: flex
 }
 
-.mitte {
+.contentContainer {
     width: 100vw;
-    height: 350px;
     background-color: wheat;
     box-sizing: border-box;
-    padding: 70px;
-    display: flex;
-    flex-wrap: wrap
+    padding: 20px;
 }
 
+.listContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.itemContainer {
+    width: 200px;
+    background-color: crimson;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+}
+
+.itemPhoto {
+    width: 150px;
+    object-fit: cover;
+}
+  
+.itemName {
+    margin-top: 20px;
+    color: wheat;
+    font-size: 15px
+}
+
+.advertisementContainer {
+    width: 100%;
+    height: 140px;
+    background-color: darkgoldenrod;
+    margin-top: 70px;
+    
+}
+  
 .mitteAreaOne {
     width: 140px;
     height: 140px;
@@ -97,31 +127,22 @@ body {
     display: flex
 }
 
-.mitteunten {
-    width: 100vw;
-    height: 70px;
-    margin-top: 0px;
-    background-color: darkgoldenrod;
-}
-
-.unten {
+.footerContainer {
     width: 100vw;
     height: 70px;
     box-sizing: border-box;
-    justify-content: center;
-    align-items: center;
     display: flex
 }
 
-.untenArea {
+.footerArea {
     flex: 1;
     height: 100%;
 }
 
-.untenAreaOne {
+.footerAreaOne {
     background-color: purple;
 }
   
-.untenAreaTwo {
+.footerAreaTwo {
     background-color: darkolivegreen;
 }
