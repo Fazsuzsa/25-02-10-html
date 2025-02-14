@@ -62,7 +62,7 @@ body {
 }
 
 .itemContainer {
-    width: 200px;
+    width: 140px;
     background-color: crimson;
     padding: 20px;
     margin: 20px;
@@ -74,12 +74,12 @@ body {
 }
 
 .itemPhoto {
-    width: 150px;
+    width: 140px;
     object-fit: cover;
 }
   
 .itemName {
-    margin-top: 20px;
+    margin-top: 10px;
     color: wheat;
     font-size: 15px
 }
