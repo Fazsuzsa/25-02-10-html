@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formular</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Personale Informationen:</legend>
+            <label for="country">Land:</label>
+            <input id="country" type="text" value="Deutschland" readonly/>
+            <br />
+            <label for="city">Stadt:</label>
+            <input id="city" type="text" value="Berlin" />
+            <hr />
+            <label for="firstname">Vorname:</label>
+            <input id="firstname" type="text" />
+            <br />
+            <label for="lastname">Nachname:</label>
+            <input id="lastname" type="text" />
+            <br />
+            <label for="email">E-Mail:</label>
+            <input id="email" type="email" placeholder="name@email.de" />
+            <br />
+            <label for="password">Passwort:</label>
+            <input id="password" type="password" minlength="8" placeholder="mindestens 8 Zeichen" />
+            <br />
+            <label for="password">Passwort wiederholen:</label>
+            <input id="password" type="password" disabled />
+            <br />
+            <label for="birthday">Geburtstagsdatum:</label>
+            <input id="birthday" type="date" />
+            <hr />
+            <label>Magst du Pixa?</label>
+            <input name="pixa" type="radio" /><label>Ja</label>
+            <input name="pixa" type="radio" /><label>Nein</label>
+            <br />
+            <label>Hobbys:</label>
+            <input  type="checkbox" /><label>Fahrrad fahren</label>
+            <input  type="checkbox" /><label>Wandern</label>
+            <input  type="checkbox" /><label>Joggen</label>
+            <br />
+            <label>Lieblingshaustier:</label>
+            <select>
+                <option>Hund</option>
+                <option>Katze</option>
+                <option>Meerschweinchen</option>
+            </select>
+            <br />
+            <label>Deine Meinung:</label>
+            <br>
+            <textarea cols="50" rows="5" maxlength="100" placeholder="Max. 100 Zeichen"></textarea>
+            <br />
+            <input type="submit" />
+        </fieldset>
+    </form>
+</body>
+</html>
