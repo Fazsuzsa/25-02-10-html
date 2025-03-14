@@ -36,6 +36,7 @@ a {
     font-size: 12pt;
     margin: 20pt;
 }
+
 marquee {
     border: 0px; background: transparent none; font-size: auto; font-family: auto direction="right" scrolldelay="0" scrollamount="5"
 }
