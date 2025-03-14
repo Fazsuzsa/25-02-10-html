@@ -4,9 +4,18 @@ body {
     margin: 0;
 }
 
-.navContainer {
+.navContainer1 {
     width: 100vw;
-    height: 70px;
+    height: 50px;
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+    
+}
+
+.navContainer2 {
+    width: 100vw;
+    height: 50px;
     box-sizing: border-box;
     align-items: center;
     display: flex
@@ -14,8 +23,11 @@ body {
 
 .navArea {
     height: 100%;
-    align-items: center;
-    display: flex
+    width: 150px;
+    display: flex;
+    &:hover {
+        background-color: crimson;
+    }
 }
 
 a {
