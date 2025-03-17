@@ -20,8 +20,18 @@ h1 {
     font-size: 30pt;
 }
 
+.welcome {
+    display: flex;
+    justify-content: center;
+}
+
 p {
     color:dimgrey;
     font-size: 12pt;
     margin: 20pt;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
 }
