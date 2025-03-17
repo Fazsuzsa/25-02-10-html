@@ -1,0 +1,34 @@
+/* alle <p> Elemente innerhalb von Klasse contentContainer werden dick geschrieben */ 
+.contentContainer p {
+    font-weight: bold;
+}
+
+/* alle <p> Elemente, die Kinder von Klasse contentContainer sind, werden unterstrichen */ 
+/* nichts wird unterstrichen, da keine Kinder */
+.contentContainer>p {
+    text-decoration: underline;
+}
+
+input:focus, textarea:focus {
+    background-color: var(--tertiary-color);
+    color: var(--primary-color);
+}
+
+#submit:hover {
+        background-color: var(--secondary-color);
+        color: var(--primary-color);
+}
+
+input[type="submit"] {
+    border: var(--secondary-color) 2px solid;
+}
+
+li::marker {
+    content: "⛺ "; /* emoji: windows-taste + . */
+}
+
+li::selection {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+    
