@@ -1,0 +1,46 @@
+h1 {
+    color: darkred;
+}
+
+p {
+    font-size: 18px;
+}
+
+#haupttitel {
+    font-weight: bold;
+}
+
+.hervorgehoben, .markiert {
+background-color: yellow;
+}
+
+.inhalt h2 {
+    text-decoration: underline;
+}
+
+input:focus {
+    background-color: black;
+    color: white;
+}
+
+button:hover {
+        background-color: green;
+        color: white;
+}
+
+#liste :first-child, #liste :nth-child(2) {
+    font-style: italic;
+}
+
+li::marker {
+    content: "🤡 "; /* emoji: windows-taste + . */
+}
+
+ul :first-child::first-letter {
+    font-weight: bold;
+    color: red;
+}
+
+input[type="email"] {
+    border: red 2px solid;
+}
