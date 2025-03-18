@@ -1,0 +1,33 @@
+body {
+    display: grid;
+    grid-template-columns: 40% 40% 20%;
+    grid-template-rows: 80% 20%;
+    height: 100vh;
+}
+
+div {
+border: 1px solid black;
+}
+
+#eins {
+    grid-row: 1 / 2;
+}
+
+#zwei {
+    grid-row: 1 / 2;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 10% auto auto;
+}
+
+#punktEins, #punktVier {
+    grid-column: 1 / -1;
+}
+
+#drei {
+    grid-row: 1 / -1;
+}
+
+#vier {
+    grid-column: 1 / 3;
+}

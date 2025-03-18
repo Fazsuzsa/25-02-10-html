@@ -1,0 +1,18 @@
+body {
+    display: grid;
+    grid-template-columns: 20% 40% 40%;
+    grid-template-rows: 50% 50%;
+    height: 100vh;
+}
+
+div {
+border: 1px solid black;
+}
+
+#eins {
+    grid-column: 2 / 4;
+}
+
+#zwei {
+    grid-row: 1 / -1;
+}
