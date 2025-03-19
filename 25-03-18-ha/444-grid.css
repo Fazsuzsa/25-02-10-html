@@ -55,7 +55,7 @@ body {
     #main {
         display: grid;
         grid-template-rows: 50px auto;
-        grid-template-columns: 35% 65%;
+        grid-template-columns: 40% 60%;
         width: 100vw;
         overflow-y: auto; /* wofür? */
     }
@@ -78,7 +78,7 @@ body {
 
         #left {
             grid-column: 1 / 2; 
-            margin: 50px;
+            margin: 50px 10px 50px 150px;
         }
 
             #donation {
@@ -101,7 +101,7 @@ body {
 
         #right {
             grid-column: 2 / 3;
-            margin: 50px;
+            margin: 50px 150px 50px 10px;
         }
         
             #article2 {
@@ -124,9 +124,10 @@ body {
                 text-decoration: underline;
             }
 
-h1, h2 {background-color: yellow;
+h1, h2 {
+    background-color: yellow;
     &:hover {
-        text-decoration: underline;
+    text-decoration: underline;
     }
 }
 
