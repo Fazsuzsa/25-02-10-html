@@ -53,10 +53,11 @@ body {
         }
 
     #main {
-        overflow-y: auto;
         display: grid;
         grid-template-rows: 50px auto;
         grid-template-columns: 35% 65%;
+        width: 100vw;
+        overflow-y: auto; /* wofür? */
     }
 
         #advertisement {
@@ -76,23 +77,36 @@ body {
             }
 
         #left {
-            grid-column: 1 / 2;
-            margin: 100px;
-            display: grid;
-            grid-template-rows: auto auto;
+            grid-column: 1 / 2; 
+            margin: 50px;
         }
 
             #donation {
                 background-color: lightgray;
                 height: 100px;
+                margin: 10px;
                 display: grid;
                 grid-template-columns: auto auto;
             }
 
+            #news {
+                background-color: green;
+                color: white;
+                margin: 10px;
+            }
+
+            #article1 {
+                margin: 10px;
+            }
+
         #right {
             grid-column: 2 / 3;
-            margin: 100px;
+            margin: 50px;
         }
+        
+            #article2 {
+                margin: 10px;
+            }
     
     #footer {
         display: grid;
@@ -110,3 +124,14 @@ body {
                 text-decoration: underline;
             }
 
+h1, h2 {background-color: yellow;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
